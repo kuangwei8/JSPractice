@@ -27,3 +27,11 @@ function formatNum(num) {
 
 }
 
+
+//Reverse the Number
+//This challenge is about using two operators that are related to division.
+//If the number is negative, treat it like it's positive.
+
+function rev(n) {
+  return Math.abs(n).toString().split('').reverse().join('')
+}
